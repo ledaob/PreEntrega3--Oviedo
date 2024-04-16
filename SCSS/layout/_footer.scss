@@ -1,0 +1,46 @@
+footer{
+    background-color:nth($colores, 1);
+    color: nth($colores, 2);
+    font-weight: bold;
+    padding: 0.1px;
+    margin: 10px;
+
+    border-radius: 10px;
+
+    p{
+        font-family: $font;    
+        font-size: $f-size; 
+        font-weight:$f-weight;
+        text-align: center;
+        text-decoration: underline;    
+        font-size: large;
+    }
+
+    nav{
+        ul{
+            li{
+                list-style: none;
+                display: inline-block;
+                justify-content: space-between;
+                padding: 20px;
+                margin-top: 0;
+
+                a{
+                    color: nth($colores, 2);
+                    font-size: large;                        
+                }
+                .footer-item-facebook:hover{
+                    color: nth($colores-hover, 1);
+                }
+                
+                .footer-item-instagram:hover{
+                    color: nth($colores-hover, 2);
+                }
+                
+                .footer-item-whatsapp:hover{
+                    color: nth($colores-hover, 3);
+                }
+            }
+        }
+    }
+}

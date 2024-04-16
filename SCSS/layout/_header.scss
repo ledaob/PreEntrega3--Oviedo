@@ -1,0 +1,60 @@
+header {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: nth($colores, 1);
+
+    box-shadow: 5px 5px 2px black;
+
+    div {
+        img.logo {
+                width: 10%;
+                padding: 10px;
+            }
+        }
+
+        nav {    
+            background-color: nth($colores, 1);
+                
+            div {
+                a.nav-link-inicio {
+                    color: nth($colores, 2);
+                    font-size: x-large;    
+                    border-bottom: 2px solid black;                       
+
+                    &:active {
+                        background-color: #404040;
+                    }
+
+                    &:hover {
+                        transition: all;
+                        transition-duration: 300ms;
+                        border: 1px solid red;
+                    }
+                }
+
+                ul {
+                    gap: 1rem;
+
+                    li {
+                        
+                        a.nav-link {
+                            color: nth($colores, 2);
+                            gap: 10px;
+                            font-size: large;
+                            
+
+                            &:active {
+                                color: nth($colores, 5);
+                                text-decoration: underline;
+                            }
+
+                        }
+                    }
+
+
+                }
+            }
+        }
+
+    }

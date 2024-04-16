@@ -1,0 +1,86 @@
+//MEDIA QUERY MOBILE
+@media screen and (max-width: $breakpoint-mobile){
+    header{
+        div{
+            img.logo{
+                width: 25%;
+            }
+        }
+    }
+
+    //INDEX
+    main.index{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    //HTML PRODUCTOS
+    main.productos{
+        div.grid-container{         
+            grid-template-columns: 1fr;
+            
+        div.product{
+                img {
+                    width: 40%;
+                    display: block;
+                    margin: 0 auto;
+                    
+                }
+        }
+        }
+    }   
+        
+    //HTML SERVICIOS
+    main.servicios{
+        div.services-container{ 
+            grid-template-columns: 1fr;            
+        
+        div.servicio{
+            img.img-services-derecha{
+                width: 70%;
+                display: block;
+                margin: 0 auto;
+                left: 0;
+            }
+            
+            img.img-services{
+                width:70%;
+                display: block;
+                margin: 0 auto;    
+            }
+        }
+
+    }
+}
+
+    //HTML UBICACION
+
+    main.ubicacion{
+        iframe{
+            height: 250px;
+        }
+    }
+
+    //HTML CONTACTO
+
+    main.contact-container{
+        form{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+        
+    footer {
+        nav{
+            ul{
+                li{
+                    a{
+                        justify-content: space-around;
+                    }
+                }
+            }
+        }   
+    }
+
+}

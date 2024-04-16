@@ -1,0 +1,62 @@
+main.productos{   
+    
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            font-family: "Khand", sans-serif;
+            font-weight: 700;
+            text-shadow: 1px 1px 1px #4f4f4f;
+            padding-top: 10px;
+        }
+
+        h3{
+            color: #191919;
+            font-size: large;
+            text-align: start;
+        }
+
+        div.grid-container{
+            @include grid-productos(4, 10px);
+        
+            
+            div.product{
+                
+                    display: flex;
+                    flex-direction: column;
+                    padding: 10px;
+                    
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 20px;
+    
+                        &:hover{
+                            transform: scale(1, 1.2);
+                        }
+                    }                   
+            }       
+                            
+    
+            div.texto-producto{     
+                
+                    margin: 0px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    p{
+                        font-family: $font;    
+                        font-size: $f-size; 
+                        font-weight: $f-weight;
+                    }
+                
+                    
+                }
+            
+                }
+}
+        
+    
+
+    
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--cdn Bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--link con CSS-->
+    <link rel="stylesheet" href="../css/main.css" />
+
+    <!--FONTS DE GOOGLE-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!--SCRIPT-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <title>Lubricentro JM</title>
+</head>
+
+<body>
+    <header class="container-fluid color-bg"> <!--HEADER CON LOGO Y HTML A REDIRECCIONAR-->
+        <div class="row flex-row-reverse">
+
+            <img src="../images/logo.png" alt="logo" class="logo col-4" />
+
+            <nav class="navbar navbar-expand-lg color-bg col-8"> <!--navbar con BS-->
+                <div class="container-fluid ">
+                    <a class="navbar-brand nav-link" href="../index.html">INICIO</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav color">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./products.html">PRODUCTOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./services.html">SERVICIOS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ubication.html">UBICACION</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">CONTACTANOS</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+        </div>
+    </header>
+
+    <main class="contact-container">
+        <h1>CONTACTANOS</h1>
+
+        <h3> A continuación te dejamos un formulario de contacto: </h3> <!--FORMULARIO DE CONTACTO-->
+
+        <form action="" method="post">
+            <label for="name">Nombre y apellido: </label> <!--casilla para nombre y apellido-->
+            <input type="text" name="nombre" id="nombre" placeholder="NOMBRE Y APELLIDO">
+            <br>
+
+            <label for="email"> Correo electronico: </label> <!--casilla para correo electrónico-->
+            <input type="email" name="correo" id="email" placeholder="CORREO" required>
+            <br>
+
+            <label for="address">Dirección: </label> <!--casilla para escribir direccion-->
+            <input type="text" name="direccion" id="direccion" placeholder="DIRECCION">
+            <br>
+
+            <label for="departamento"> Departamento: </label> <!--lista desplegable para seleccionar la localidad-->
+            <select name="departamento" id="departamento">
+                <option value="">POSADAS</option>
+                <option value="">APOSTOLES</option>
+                <option value="">CAINGUAS</option>
+                <option value="">CANDELARIA</option>
+                <option value="">CONCEPCION</option>
+                <option value="">ELDORADO</option>
+                <option value="">GRAL. MANUEL BELGRANO</option>
+                <option value="">GUARANI</option>
+                <option value="">IGUAZU</option>
+                <option value="">LEANDRO N. ALEM</option>
+                <option value="">LIB. GRAL. SAN MARTIN</option>
+                <option value="">MONTECARLO</option>
+                <option value="">OBERA</option>
+                <option value="">SAN IGNACIO</option>
+                <option value="">SAN JAVIER</option>
+                <option value="">SAN PEDRO</option>
+                <option value="">25 DE MAYO</option>
+            </select>
+            <br>
+
+            <label for="telefono">Teléfono: </label> <!--casilla para número de celular-->
+            <input type="text" name="telefono" id="telefono" placeholder="TELEFONO">
+            <br>
+
+
+            <input type="submit" value="Enviar Datos"> <!--boton para guardar datos-->
+
+        </form>
+    </main>
+
+
+
+
+    <footer> <!--footer con redes sociales-->
+        <p class="footer">¡Seguinos en nuestras redes sociales! </p>
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com/" class="footer-item-facebook">FACEBOOK</a></li>
+                <li><a href="https://www.instagram.com" class="footer-item-instagram">INSTAGRAM</a></li>
+                <li><a href="" class="footer-item-whatsapp">WHATSAPP</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+
+    <!--SCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+</html>

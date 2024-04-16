@@ -1,0 +1,32 @@
+main.index{ 
+    
+        div{
+            h1{
+                text-align: center;
+                text-decoration: underline;
+                font-family: "Khand", sans-serif;
+                font-weight: 700;
+                text-shadow: 1px 1px 1px #4f4f4f !important;
+                padding-top: 10px;
+            }
+
+            p{
+                font-family: $font;    
+                font-size: $f-size; 
+                font-weight:$f-weight;
+            }
+        }
+        
+        div{
+            video{
+                width: 97%;
+                margin: 15px;
+                box-shadow: 5px 5px #4f4f4f;
+                border-radius: 15px;
+            }
+        }
+}
+        
+        
+
+    

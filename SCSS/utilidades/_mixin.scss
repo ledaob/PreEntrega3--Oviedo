@@ -1,0 +1,11 @@
+@mixin grid-productos($columnas, $espacio){
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap: $espacio;
+}
+
+@mixin grid-servicios($columnas, $espacio){
+    display: grid;
+    grid-template-columns: repeat($columnas, 1fr);
+    gap:  $espacio;
+}

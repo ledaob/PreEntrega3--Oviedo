@@ -1,0 +1,69 @@
+main.servicios{
+    
+        h1{
+            text-align: center;
+            text-decoration: underline;
+            font-family: "Khand", sans-serif;
+            font-weight: 700;
+            text-shadow: 1px 1px 1px #4f4f4f;
+            padding-top: 10px;
+        }
+
+        h3{
+            color: nth($colores , 4);
+            font-size: x-large;
+            text-align: start;
+        
+        }
+
+        div.services-container{
+                @include grid-servicios(2,50px);
+
+                div.servicio{
+                        padding: 10px;
+
+                        img.img-services{                            
+                                max-width: 100%;
+                                display: flex;
+                                flex-direction: row-reverse;
+                                justify-content: space-between;
+                                text-align: center;
+                                border-radius: 20px;
+                                transition: transform .2s;
+                                margin: 10px;
+
+                                &:hover{
+                                    transform: scale(1, 1.2);
+                                }
+                        }
+    
+                        img.img-services-derecha{
+                                width: 100%;    
+                                justify-content: flex-end; 
+                                position: relative;
+                                left: 70px;  
+                                margin: 10px;
+                                border-radius: 20px;
+
+                                &:hover{
+                                    transform: scale(1, 1.2);
+                                
+                            }                            
+                            
+                        }
+                            
+                }
+                        div.texto-services{
+                            margin: 0px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            p{ 
+                                font-family: $font;    
+                                font-size: $f-size; 
+                                font-weight: $f-weight;
+                            }
+                        }
+                    }
+                }
+            

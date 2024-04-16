@@ -1,0 +1,389 @@
+header {
+  margin: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4f4f4f;
+  box-shadow: 5px 5px 2px black;
+}
+header div img.logo {
+  width: 10%;
+  padding: 10px;
+}
+header nav {
+  background-color: #4f4f4f;
+}
+header nav div a.nav-link-inicio {
+  color: #dcdcdc;
+  font-size: x-large;
+  border-bottom: 2px solid black;
+}
+header nav div a.nav-link-inicio:active {
+  background-color: #404040;
+}
+header nav div a.nav-link-inicio:hover {
+  transition: all;
+  transition-duration: 300ms;
+  border: 1px solid red;
+}
+header nav div ul {
+  gap: 1rem;
+}
+header nav div ul li a.nav-link {
+  color: #dcdcdc;
+  gap: 10px;
+  font-size: large;
+}
+header nav div ul li a.nav-link:active {
+  color: red;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #4f4f4f;
+  color: #dcdcdc;
+  font-weight: bold;
+  padding: 0.1px;
+  margin: 10px;
+  border-radius: 10px;
+}
+footer p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: underline;
+  font-size: large;
+}
+footer nav ul li {
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 0;
+}
+footer nav ul li a {
+  color: #dcdcdc;
+  font-size: large;
+}
+footer nav ul li .footer-item-facebook:hover {
+  color: blue;
+}
+footer nav ul li .footer-item-instagram:hover {
+  color: magenta;
+}
+footer nav ul li .footer-item-whatsapp:hover {
+  color: greenyellow;
+}
+
+main.index div h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f !important;
+  padding-top: 10px;
+}
+main.index div p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+main.index div video {
+  width: 97%;
+  margin: 15px;
+  box-shadow: 5px 5px #4f4f4f;
+  border-radius: 15px;
+}
+
+main.productos h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f;
+  padding-top: 10px;
+}
+main.productos h3 {
+  color: #191919;
+  font-size: large;
+  text-align: start;
+}
+main.productos div.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+main.productos div.grid-container div.product {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+main.productos div.grid-container div.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+main.productos div.grid-container div.product img:hover {
+  transform: scale(1, 1.2);
+}
+main.productos div.grid-container div.texto-producto {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.productos div.grid-container div.texto-producto p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+main.servicios h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f;
+  padding-top: 10px;
+}
+main.servicios h3 {
+  color: #121212;
+  font-size: x-large;
+  text-align: start;
+}
+main.servicios div.services-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+main.servicios div.services-container div.servicio {
+  padding: 10px;
+}
+main.servicios div.services-container div.servicio img.img-services {
+  max-width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  text-align: center;
+  border-radius: 20px;
+  transition: transform 0.2s;
+  margin: 10px;
+}
+main.servicios div.services-container div.servicio img.img-services:hover {
+  transform: scale(1, 1.2);
+}
+main.servicios div.services-container div.servicio img.img-services-derecha {
+  width: 100%;
+  justify-content: flex-end;
+  position: relative;
+  left: 70px;
+  margin: 10px;
+  border-radius: 20px;
+}
+main.servicios div.services-container div.servicio img.img-services-derecha:hover {
+  transform: scale(1, 1.2);
+}
+main.servicios div.services-container div.texto-services {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main.servicios div.services-container div.texto-services p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+main.ubicacion h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f;
+  padding-top: 10px;
+}
+main.ubicacion h3 {
+  color: #121212;
+  font-size: x-large;
+  text-align: start;
+}
+main.ubicacion iframe {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+main.ubicacion p {
+  font-family: "Khand", sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+}
+
+main.contact-container h1 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Khand", sans-serif;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #4f4f4f;
+  padding-top: 10px;
+}
+main.contact-container h3 {
+  color: #191919;
+  font-size: large;
+  text-align: start;
+}
+
+@media screen and (max-width: 600px) {
+  header div img.logo {
+    width: 25%;
+  }
+  main.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main.productos div.grid-container {
+    grid-template-columns: 1fr;
+  }
+  main.productos div.grid-container div.product img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
+  main.servicios div.services-container {
+    grid-template-columns: 1fr;
+  }
+  main.servicios div.services-container div.servicio img.img-services-derecha {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    left: 0;
+  }
+  main.servicios div.services-container div.servicio img.img-services {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+  }
+  main.ubicacion iframe {
+    height: 250px;
+  }
+  main.contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  footer nav ul li a {
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  header div img.logo {
+    width: 25%;
+  }
+  main.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main.productos div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  main.productos div.grid-container div.product img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  main.servicios div.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  main.servicios div.services-container div.servicio img.img-services-derecha {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    left: 0;
+  }
+  main.servicios div.services-container div.servicio img.img-services {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+  }
+  main.ubicacion iframe {
+    height: 275px;
+  }
+  main.contact-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  footer nav ul li a {
+    justify-content: space-around;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  header div img.logo {
+    width: 10%;
+  }
+  main.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main.productos div.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  main.productos div.grid-container div.product img {
+    width: 100%;
+    display: grid;
+    margin: 0 auto;
+  }
+  main.productos div.grid-container div.product:hover {
+    transform: scale(1, 1.2);
+  }
+  main.servicios div.services-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+  main.servicios div.services-container div.servicio img.img-services-derecha {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    left: 0;
+  }
+  main.servicios div.services-container div.servicio img.img-services {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  main.ubicacion iframe {
+    height: 350px;
+  }
+  main.contact-container form {
+    display: block;
+    flex-direction: column;
+  }
+  footer nav ul li a {
+    justify-content: space-around;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcdcdc;
+  padding: 5px 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
